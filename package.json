@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-server-with-logs-files",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Blank project with NodeJS server and log files",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/username/repository.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "cd server && nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cluster": "^0.7.7",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14",
+    "os": "^0.1.2",
+    "winston": "^3.3.3"
+  }
+}
